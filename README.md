@@ -1,6 +1,7 @@
-# Aplikasi Klinik
+Nama: M.Caesar Aidarus
+NPM: 2308107010072
 
-Aplikasi Klinik ini dikembangkan untuk keperluan Materi Perkuliahan Web || di Kampus UNAMA | Universitas Dinamika Bangsa. Aplikasi ini memiliki 3 role:
+Website Klinik ini dikembangkan untuk memenuhi project UAS PBW saya dan pada website ini ada 3 role utama:
 
 1. **admin**
     - Bisa mengakses semua fitur
@@ -18,13 +19,7 @@ Aplikasi Klinik ini dikembangkan untuk keperluan Materi Perkuliahan Web || di Ka
     git clone https://github.com/a3m-nix/klinik-app.git
     ```
 
-2. **Buka Project dengan VSCode lalu Rename File `.env.example` menjadi `.env` (jika dilinux):**
-
-    ```bash
-    mv .env.example .env
-    ```
-
-3. **Konfigurasi Database:**
+2. **Konfigurasi Database:**
 
     - Buka file `.env` dan konfigurasi nama database sesuai kebutuhan:
         ```env
@@ -36,42 +31,42 @@ Aplikasi Klinik ini dikembangkan untuk keperluan Materi Perkuliahan Web || di Ka
         DB_PASSWORD=kata_sandi_database
         ```
 
-4. **Install Dependencies:**
+3. **Install Dependencies:**
 
     ```bash
     composer install
     ```
 
-5. **Generate Application Key:**
+4. **Generate Application Key:**
 
     ```bash
     php artisan key:generate
     ```
 
-6. **Create Symbolic Link for Storage:**
+5. **Create Symbolic Link for Storage:**
 
     ```bash
     php artisan storage:link
     ```
 
-7. **Run Database Migrations:**
+6. **Run Database Migrations:**
 
     ```bash
     php artisan migrate
     ```
 
-8. **Seed Database:**
+7. **Seed Database:**
 
     ```bash
     php artisan db:seed
     ```
 
-9. **Run Artisan Serve:**
+8. **Run Artisan Serve:**
 
     ```bash
     php artisan serve
     ```
 
-10. **Login dengan Akun:**
+9. **Login dengan Akun:**
     - Pengguna: admin@admin.com
     - Kata Sandi: 1
