@@ -71,3 +71,6 @@ Website Klinik ini dikembangkan untuk memenuhi project UAS PBW saya dan pada web
 9. **Login dengan Akun:**
     - Pengguna: admin@admin.com
     - Kata Sandi: 1
+  
+10. jalankan semua langkah di atas agar bisa menjalankannya
+    
